@@ -1,0 +1,78 @@
+Marc@DESKTOP-E6L90AU MINGW64 /c/Dev/Modelisation/Cours/GitHub_gitlab (master)
+$ ls
+01-basic-Enoncé.ipynb  02-control_flow-Enoncé.ipynb  03-functions-Enoncé.ipynb  04-reusing_code.ipynb
+
+Marc@DESKTOP-E6L90AU MINGW64 /c/Dev/Modelisation/Cours/GitHub_gitlab (master)
+$ git add .
+warning: LF will be replaced by CRLF in .ipynb_checkpoints/01-basic-Enoncé-checkpoint.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .ipynb_checkpoints/02-control_flow-Enoncé-checkpoint.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .ipynb_checkpoints/03-functions-Enoncé-checkpoint.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .ipynb_checkpoints/04-reusing_code-checkpoint.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 01-basic-Enoncé.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 02-control_flow-Enoncé.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 03-functions-Enoncé.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 04-reusing_code.ipynb.
+The file will have its original line endings in your working directory
+
+Marc@DESKTOP-E6L90AU MINGW64 /c/Dev/Modelisation/Cours/GitHub_gitlab (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   ".ipynb_checkpoints/01-basic-Enonc\303\251-checkpoint.ipynb"
+        new file:   ".ipynb_checkpoints/02-control_flow-Enonc\303\251-checkpoint.ipynb"
+        new file:   ".ipynb_checkpoints/03-functions-Enonc\303\251-checkpoint.ipynb"
+        new file:   .ipynb_checkpoints/04-reusing_code-checkpoint.ipynb
+        new file:   "01-basic-Enonc\303\251.ipynb"
+        new file:   "02-control_flow-Enonc\303\251.ipynb"
+        new file:   "03-functions-Enonc\303\251.ipynb"
+        new file:   04-reusing_code.ipynb
+
+
+Marc@DESKTOP-E6L90AU MINGW64 /c/Dev/Modelisation/Cours/GitHub_gitlab (master)
+$ git commit -m "Python"
+[master (root-commit) ccd819d] Python
+ 8 files changed, 9281 insertions(+)
+ create mode 100644 ".ipynb_checkpoints/01-basic-Enonc\303\251-checkpoint.ipynb"
+ create mode 100644 ".ipynb_checkpoints/02-control_flow-Enonc\303\251-checkpoint.ipynb"
+ create mode 100644 ".ipynb_checkpoints/03-functions-Enonc\303\251-checkpoint.ipynb"
+ create mode 100644 .ipynb_checkpoints/04-reusing_code-checkpoint.ipynb
+ create mode 100644 "01-basic-Enonc\303\251.ipynb"
+ create mode 100644 "02-control_flow-Enonc\303\251.ipynb"
+ create mode 100644 "03-functions-Enonc\303\251.ipynb"
+ create mode 100644 04-reusing_code.ipynb
+
+Marc@DESKTOP-E6L90AU MINGW64 /c/Dev/Modelisation/Cours/GitHub_gitlab (master)
+$ git remote add url https://github.com/Markito-dev/Test_github_IASchool.git
+
+Marc@DESKTOP-E6L90AU MINGW64 /c/Dev/Modelisation/Cours/GitHub_gitlab (master)
+$ git remote -v
+url     https://github.com/Markito-dev/Test_github_IASchool.git (fetch)
+url     https://github.com/Markito-dev/Test_github_IASchool.git (push)
+
+Marc@DESKTOP-E6L90AU MINGW64 /c/Dev/Modelisation/Cours/GitHub_gitlab (master)
+$ git push -u url master
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 18.83 KiB | 2.69 MiB/s, done.
+Total 8 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), done.
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/Markito-dev/Test_github_IASchool/pull/new/master
+remote:
+To https://github.com/Markito-dev/Test_github_IASchool.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'url'.
